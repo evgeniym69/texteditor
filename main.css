@@ -7,6 +7,8 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 header {
@@ -14,16 +16,19 @@ header {
     padding-left: 15px;
     padding-top: 15px;
     font-size: 24px;
+    text-align: center;
     border-bottom: 4px solid #ffa500;
     background-color: rgba(33,33,33,0.5);
     color: #fff;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
+    line-height: 42px;
     width: 100%;
-    text-align: right;
+    text-align: center;
+    height: 40px;
+    color: #fff;
+    background-color: rgba(33,33,33,0.9);
 }
 
 main {
@@ -39,6 +44,7 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 5px;
+    font-size: 20px
 }
 
 #file {
@@ -46,6 +52,8 @@ main {
     flex-grow: 1;
     background-color: #fff;
     border: 1px solid #e4dede;
+    overflow: hidden;
+    padding: 25px;
 }
 
 #control-panel {
@@ -70,4 +78,27 @@ main {
 #format-actions {
     width: 200px;
     margin-right: 400px;
+}
+
+#color {
+  width: 40px;
+  position: relative;
+  bottom: 20px;
+
+}
+
+.format-action {
+  width: 50px
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.underline{
+  text-decoration: underline;
 }
