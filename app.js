@@ -39,10 +39,19 @@ document.addEventListener('keydown', function(){
 
 });
 
-$("#color").click(function(){
-      alert('123');
+$("#color").spectrum({
+    color: '#000000',
+    showPalette: true,
+    showInput: true,
+    showInitial: true,
+    showInput: true,
+    preferredFormat: "hex",
+    showButtons: false,
+    change: function(color) {
+      color = color.toHexString();
+      document.execCommand('foreColor', false, color);
+    }
 });
-
 //Another way
 //Added three classes in CSS - bold, italic, underline
 

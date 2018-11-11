@@ -58,7 +58,7 @@ main {
 
 #control-panel {
     background-color: #fff;
-    height: 25px;
+    height: 35px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -77,7 +77,7 @@ main {
 
 #format-actions {
     width: 200px;
-    margin-right: 400px;
+    margin-right: 185px;
 }
 
 #color {
@@ -88,7 +88,8 @@ main {
 }
 
 .format-action {
-  width: 50px
+  width: 50px;
+  height: 32px;
 }
 
 .bold{
@@ -101,4 +102,11 @@ main {
 
 .underline{
   text-decoration: underline;
+}
+
+.sp-replacer{
+  overflow: visible;
+  position: relative;
+  bottom: 32px;
+
 }
