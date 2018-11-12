@@ -76,8 +76,8 @@ main {
 }
 
 #format-actions {
-    width: 200px;
-    margin-right: 185px;
+    width: 400px;
+    margin-left: 85px;
 }
 
 #color {
@@ -104,9 +104,20 @@ main {
   text-decoration: underline;
 }
 
-.sp-replacer{
-  overflow: visible;
-  position: relative;
-  bottom: 32px;
 
+.synonym{
+  width: 110px;
+}
+
+#popup-window {
+  position: absolute;
+  top: 180px;
+  left: 380px;
+  border: 1px solid #eeeeee;
+  background: #ffffff;
+  padding: 6px 12px;
+}
+
+#popup-window > div {
+  padding : 6px 0;
 }
